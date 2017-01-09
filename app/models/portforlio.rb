@@ -1,2 +1,0 @@
-class Portforlio < ApplicationRecord
-end
