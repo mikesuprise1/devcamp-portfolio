@@ -1,0 +1,2 @@
+class PortforliosController < ApplicationController
+end
