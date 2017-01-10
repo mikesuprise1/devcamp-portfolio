@@ -32,16 +32,6 @@ ActiveRecord::Schema.define(version: 20170109224558) do
     t.datetime "updated_at",  null: false
   end
 
-  create_table "portforlios", force: :cascade do |t|
-    t.string   "title"
-    t.string   "subtitle"
-    t.text     "body"
-    t.text     "main_image"
-    t.text     "thumb_image"
-    t.datetime "created_at",  null: false
-    t.datetime "updated_at",  null: false
-  end
-
   create_table "skills", force: :cascade do |t|
     t.string   "title"
     t.integer  "percent_utilized"
