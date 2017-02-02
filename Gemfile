@@ -26,8 +26,8 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
 
-gem 'friendly_id', :require => "friendly_id"
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem 'friendly_id', :require => "friendly_id"
 gem 'devise', '~> 4.2' 
 gem 'bootstrap', '~> 4.0.0.alpha6'
 gem 'suprise_view_tool', '~> 0.1.0'
@@ -42,3 +42,4 @@ gem 'dotenv-rails', '~> 2.2'
 gem 'cocoon', '~> 1.2', '>= 1.2.9'
 gem 'gritter', '~> 1.2'
 gem 'twitter', '~> 6.1'
+gem 'redis', '~> 3.3', '>= 3.3.3'
