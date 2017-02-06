@@ -19,3 +19,26 @@ class Portfolio < ApplicationRecord
 
 	scope :ruby_on_rails_portfolio_items, -> {where(subtitle: 'Ruby on Rails')}
 end
+
+
+# DEFINED IN MODELS
+#
+# def self.mike
+# => find(params[:id])
+# end
+#
+# scope :mike, => { find(params[:id]) }
+#
+# -----------------------------------------
+#
+# USED IN VIEWS / COTROLLER
+#
+# @mike_scope = Portolio.find(params[:id])
+# 
+# @mike_scope = Portfolio.mike.
+#
+#
+#
+#
+#
+#
