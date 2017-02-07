@@ -65,6 +65,7 @@ ActiveRecord::Schema.define(version: 20170202174646) do
     t.integer  "percent_utilized"
     t.datetime "created_at",       null: false
     t.datetime "updated_at",       null: false
+    t.integer  "position"
   end
 
   create_table "technologies", force: :cascade do |t|
