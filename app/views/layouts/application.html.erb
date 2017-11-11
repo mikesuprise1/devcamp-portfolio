@@ -21,25 +21,19 @@
   	<div class="site-wrapper">
       <div class="site-wrapper-inner">
         <div class="cover-container">
+          <div id="particles-js">
+            <div id="background"></div>
 
-          <%= video_tag(
-              'HardDrivePhotojpeg.mp4',
-              id: 'background',
-              autoplay: true,
-              loop: true,
-              muted: true,
-              poster: 'home_bg.png'
-            )
-            %>
+            
 
-          <%= render "shared/application_nav" %>
+            <%= render "shared/application_nav" %>
 
-          <%= yield %>
+            <%= yield %>
 
-          <%= render "shared/application_footer" %>
+            <%= render "shared/application_footer" %>
 
-          <%= alerts %>
-        
+            <%= alerts %>
+          </div>
         </div>
       </div>
     </div>

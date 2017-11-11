@@ -17,6 +17,7 @@
 //= require cocoon
 //= require gritter
 //= require cable
+//= require particles.min
 //= require turbolinks
 //= require_tree .
 //= require bootstrap-sprockets

@@ -212,9 +212,10 @@ h6, .h6 {
   width: auto;
   height: auto;
   z-index: -100;
+  background: #202235;
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  background: image-url('home_bg.png') no-repeat;
+  // background: image-url('home_bg.png') no-repeat;
   background-size: cover;
 }
 
@@ -260,4 +261,11 @@ h6, .h6 {
 .skill {
   margin-top: 10px;
   margin-bottom: 10px; 
+}
+
+.particles-js-canvas-el {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: -1;
 }
